@@ -2,7 +2,7 @@
   <img src="public/og.jpg" alt="Halden — The quiet work of feeling well again" width="100%">
 </p>
 
-<h1 align="center">Halden</h1>
+<h1 align="center">HALDEN</h1>
 
 <p align="center">
   <strong>The quiet work of feeling well again.</strong><br>
