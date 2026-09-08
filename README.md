@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#live-demo">Live Demo</a> ·
+  <a href="https://health-coaches.vercel.app/">Live Demo</a> ·
   <a href="#features">Features</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#getting-started">Getting Started</a> ·
@@ -32,13 +32,13 @@ It's built for the coach who reads every check-in, who notices when a client's T
 
 ## Live Demo
 
-**[Open the Studio →](https://health-coaches.vercel.app)**
+**[Open the Studio →](https://health-coaches.vercel.app/)**
 
-| Portal | Credentials |
-|--------|------------|
-| Client portal (`/app`) | Sign in with email — the portal seeds with demo data on first access |
-| Coach studio (`/studio`) | Same account — the studio view is seeded automatically |
-| Marketing site (`/`) | Public — no sign-in required |
+| Portal | URL | Credentials |
+|--------|-----|------------|
+| Marketing site | [health-coaches.vercel.app](https://health-coaches.vercel.app/) | Public — no sign-in required |
+| Client portal | [/app](https://health-coaches.vercel.app/app) | Sign in with email — seeds demo data on first access |
+| Coach studio | [/studio](https://health-coaches.vercel.app/studio) | Same account — studio view seeded automatically |
 
 ---
 
@@ -131,7 +131,7 @@ It's built for the coach who reads every check-in, who notices when a client's T
 | **AI** | [xAI Grok](https://docs.x.ai) | Assessment personalization + coach reply drafts — user-initiated, capped, no mock responses |
 | **State** | TanStack Query + Zustand | Server state cached, client state minimal — no Redux, no context prop drilling |
 | **Forms** | React Hook Form + Zod | Type-safe validation, minimal re-renders |
-| **Deploy** | Vercel (via Nitro) | Edge functions, automatic previews, zero-config |
+| **Deploy** | [Vercel](https://vercel.com) (via Nitro) | Edge functions, automatic previews, zero-config |
 
 ### Design System
 
